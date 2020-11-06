@@ -21,8 +21,7 @@ Install leap-year by cloning this repository.
 | a year that is divisible by 100 | 1900 | false |
 | a year that is divisible by 400 | 2000 |true |
 
-Describe: isLeapYear()
-
+**Describe: isLeapYear()** <br>
 Test: "It returns false for years that are not a leap year" <br>
 Expect(isLeapYear(1993)).toEqual(false);
 
