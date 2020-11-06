@@ -14,8 +14,7 @@ Install leap-year by cloning this repository.
 
 ## Tests
 
-Describe: isLeapYear()
-
+**Describe: isLeapYear()** <br>
 Test: "It returns false for years that are not a leap year" <br>
 Expect(isLeapYear(1993)).toEqual(false);
 
