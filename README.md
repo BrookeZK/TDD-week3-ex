@@ -12,24 +12,20 @@ This application takes a single input from the user and evaluates whether it is 
 
 Install leap-year by cloning this repository.
 
-## Specs
+## Tests
 
 Describe: isLeapYear()
 
-Test: "It returns false for years that are not a leap year"
-
+Test: "It returns false for years that are not a leap year" <br>
 Expect(isLeapYear(1993)).toEqual(false);
 
-Test: "It returns true for years that are divisible by 4"
-
+Test: "It returns true for years that are divisible by 4" <br>
 Expect(isLeapYear(2004)).toEqual(true);
 
-Test: "It returns false for years that are divisible by 100"
-
+Test: "It returns false for years that are divisible by 100" <br>
 Expect(isLeapYear(2100)).toEqual(false);
 
-Test: "It returns true for years that are divisible by 400"
-
+Test: "It returns true for years that are divisible by 400" <br>
 Expect(isLeapYear(2000)).toEqual(true);
 
 ## Technologies Used
